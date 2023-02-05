@@ -1,0 +1,321 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Aug 28 08:26:00 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.4.2
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR 
+ := c:/Users/Admin/Documents/PlatformIO/Projects/EnviCan_V1.0
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\Admin\OneDrive
+# environment
+MOSQUITTO_DIR = C:\Program Files\mosquitto
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\Admin\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+SIMATIC_OAM_DATA = C:\ProgramData\Siemens\Automation\Simatic OAM
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Admin
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+SYNAPROGDIR = Synaptics\SynTP
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13664_DINWFAZTXMVSQYUP
+# environment
+COMPUTERNAME = ADMIN
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Admin
+# environment
+SIMATIC_OAM = C:\Program Files\Common Files\Siemens\Automation\Simatic OAM
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Admin\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\ADMIN
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = ADMIN
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\Admin\.platformio\penv\Scripts;C:\Users\Admin\.platformio\penv;C:\Users\Admin\.platformio\python3;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\Admin\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python37\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\gitkraken\bin;C:\MinGW\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\Admin\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python37\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\gitkraken\bin;C:\MinGW\bin;C:\Program Files\Azure Data Studio\bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\Admin\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python37\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\gitkraken\bin;C:\MinGW\bin;C:\Program Files\Azure Data Studio\bin
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+C_EM64T_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Admin\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1fa9692ca970862365dc969f915639a2-1.70.2-main-sock
+# environment
+HOMEPATH = \Users\Admin
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Admin\AppData\Roaming
+# environment
+TEMP = C:\Users\Admin\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# environment
+FXSERIES_EMBEDDED_SDK_WORKING_DIR = C:\Zebra-FXSeries-Embedded-SDK
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environme 
+nt
+PROCESSOR_REVISION = 8e09
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 13664
+# environment
+USERDOMAIN_ROAMINGPROFILE = ADMIN
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=14/113=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1585786044): 30 files, no impossibilities.
+# C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin (key C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin, mtime 1658071640): 35 files, no impossibilities.
+# . (key c:/Users/Admin/Documents/PlatformIO/Projects/EnviCan_V1.0, mtime 1659524188): 10 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/, mtime 1634221832): 4 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1658368889): 6 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1634221847): 13 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1616200291): 8 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1631093211): 144 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64 (key C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/bin/Intel64, mtime 1585788144): 14 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1579661363): 4 files, no impossibilities.
+# C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility (key C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility, mtime 1646624526): 11 files, no impossibilities.
+# C:\Users\Admin\AppData\Local\gitkraken\bin (key C:/Users/Admin/AppData/Local/gitkraken/bin, mtime 1630759962): 3 files, no impossibilities.
+# C:\Users\Admin\AppData\Roaming\npm (key C:/Users/Admin/AppData/Roaming/npm, mtime 1642843494): 15 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1625235815): 116 files, no impossibilities.
+# C:\Users\Admin\AppData\Local\Microsoft\WindowsApps (key C:/Users/Admin/AppData/Local/Microsoft/WindowsApps, mtime 1657014976): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1632790831): 4 files, no impossibilities.
+# C 
+:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1585786714): 174 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/, mtime 1612922993): 73 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/, mtime 1634221846): 11 files, no impossibilities.
+# C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin (key C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin, mtime 1625235668): 35 files, no impossibilities.
+# C:\Users\Admin\AppData\Local\Programs\Python\Python37\ (key C:/Users/Admin/AppData/Local/Programs/Python/Python37/, mtime 1605590606): 17 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/150/DTS/Binn/, mtime 1634221870): 46 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1614952823): 6 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1586560637): 11 files, no impossibilities.
+# C:\Users\Admin\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/Admin/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1613025546): 10 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1660748983): 3031 files, no impossibilities.
+# C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1661132802): 4 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1579661363): 10 files, no impossibilities.
+# C:\Program Files\Azure Data Studio\bin (key C:/Program Files/Azure Data Studio/bin, mtime 1634222311): 4 files, no impossibilities.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1623327221): 12 files, no impossibilities.
+
+# 3866 files, no impossibilities in 31 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 8 (7) / strings = 3807 / storage = 57400 B / avg = 15 B
+# current buf: size = 8174 B / used = 218 B / count = 15 / avg = 14 B
+# other used: total = 49226 B / count = 3792 / avg = 12 B
+# other free: total = 36 B / max = 10 B / min = 2 B / avg = 5 B
+
+# strcache performance: lookups = 3905 / hit rate =  
+make.exe: *** No rule to make target 'all'.  Stop.
+
+2%
+# hash-table stats:
+# Load=3807/8192=46%, Rehash=0, Collisions=1443/3905=37%
+# Finished Make data base on Sun Aug 28 08:26:00 2022
+
+ 
